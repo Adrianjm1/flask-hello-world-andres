@@ -4,9 +4,10 @@ from flask_caching import Cache
 
 config = {
     "DEBUG": False,          # some Flask specific configs
-    "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
+    "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs 2
     "CACHE_DEFAULT_TIMEOUT": 300
 }
+
 
 app = Flask(__name__)
 # tell Flask to use the above defined config
