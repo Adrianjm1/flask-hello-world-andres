@@ -11,5 +11,5 @@ def about():
 
 
 @app.route('/query_location', methods=['GET'])
-def home():
+def query_location():
     return 'Hello, mi pana crunch!'
