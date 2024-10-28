@@ -9,3 +9,7 @@ def home():
 def about():
     return 'About'
 
+
+@app.route('/query_location', methods=['GET'])
+def home():
+    return 'Hello, mi pana crunch!'
