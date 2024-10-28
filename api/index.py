@@ -32,3 +32,11 @@ if __name__ == '__main__':
 
 
 
+
+@app.route('/')
+def home():
+    return 'Hello, World como esta todo!'
+@app.route('/about')
+def about():
+    return 'About'
+
