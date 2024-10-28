@@ -1,11 +1,8 @@
-from flask import Flask, request, jsonify
-
+from flask import Flask
+app = Flask(__name__)
+@app.route('/')
 def home():
-    return 'Hello, World como esta todo!'
-
+    return 'Hello, mi pana!'
 @app.route('/about')
 def about():
     return 'About'
-
-if __name__ == '__main__':
-    app.run(debug=True)
