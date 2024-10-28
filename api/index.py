@@ -8,7 +8,7 @@ config = {
     "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
     "CACHE_DEFAULT_TIMEOUT": 300
 }
-app.config.from_mapping(config)
+
 
 @app.route('/')
 def home():
