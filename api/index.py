@@ -19,5 +19,5 @@ def query_location():
     if not location:
         return jsonify({"error": "Location parameter is required"}), 400
     result = nomi.query_location(location, top_k=top_k)
-    result_dict = result.to_dict(orient='records')
+
     return 'Hello, mi pana crunch!'
